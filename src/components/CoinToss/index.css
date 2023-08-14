@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.body {
+  margin: 0px;
+}
+.bgcontainer {
+  background-color: #e2a139;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardcontainer {
+  background-color: white;
+  border-radius: 5px;
+  height: fit-content;
+  width: fit-content;
+  padding: 10px;
+  text-align: center;
+}
+
+.heading {
+  font-family: 'Roboto';
+  color: #a35200;
+}
+
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.coinimage {
+  height: 140px;
+  width: 140px;
+}
+
+.tossbutton {
+  background-color: #f9d423;
+  border-color: transparent;
+  border-radius: 3px;
+  padding: 8px;
+  font-family: 'Roboto';
+  color: #a35200;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.countcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.count {
+  margin-right: 9px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
